@@ -1,0 +1,13 @@
+button {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #9b9b9b !important;
+  transform: translateY(4px);
+}

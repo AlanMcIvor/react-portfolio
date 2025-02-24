@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  font-family: "Poppins", "sans-serif";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  width: fit-content;
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+p {
+  display: block;
+  width: fit-content;
+}
+
+button,
+select,
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"],
+input[type="range"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
+button {
+  width: fit-content;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  padding: 0.25rem 1.25rem;
+
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 0 #000;
+  transition-duration: 200ms;
+}
+
+button:hover {
+  box-shadow: 0 0 0 0 #000;
+  transform: translate(2px, 2px);
+}
+
+button[disabled]:hover {
+  box-shadow: 2px 2px 0 0 #000;
+  transform: translate(0, 0);
+}
+
+button:disabled,
+button[disabled] {
+  border: 1.5px solid #000;
+  cursor: initial;
+  opacity: 0.55;
+}
