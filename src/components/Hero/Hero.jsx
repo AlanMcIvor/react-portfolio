@@ -6,7 +6,7 @@ import { Button } from "../Button/Button";
 
 export function Hero() {
   return (
-    <section>
+    <section className="hero-section">
       <div className="hero-container">
         <div className="hero-txt">
           <h2>
