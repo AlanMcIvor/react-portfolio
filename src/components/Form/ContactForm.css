@@ -1,0 +1,26 @@
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: #f9f9f9;
+  outline: none;
+  border: 1px solid #888888;
+  padding: 12px;
+  width: 550px;
+  margin-bottom: 1.2em;
+  font-size: 1em;
+}
+
+button {
+  background-color: #ff6978;
+}
+
+@media screen and (max-width: 671px) {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 1.2em;
+    font-size: 1em;
+  }
+}

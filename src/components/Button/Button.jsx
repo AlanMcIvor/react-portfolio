@@ -2,7 +2,6 @@ import React from "react";
 import "./Button.css";
 
 export function Button({ text, onClick, backgroundColor, color }) {
-  console.log("Button rendered");
   return (
     <button
       className="btn"

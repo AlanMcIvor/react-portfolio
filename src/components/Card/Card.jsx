@@ -2,7 +2,13 @@ import React from "react";
 import "./Card.css";
 import { Button } from "../Button/Button";
 
-export function Card({ cardTech, cardTitle, cardImg }) {
+export function Card({
+  cardTech,
+  cardTitle,
+  cardImg,
+  liveSiteLink,
+  githubLink,
+}) {
   return (
     <div className="card">
       <div className="card-tech">
@@ -21,7 +27,7 @@ export function Card({ cardTech, cardTitle, cardImg }) {
           text="Live Site"
           backgroundColor={"#FF6978"}
           onClick={() => {
-            console.log("View site");
+            window.open(liveSiteLink, "_blank");
           }}
         />
         <Button
@@ -29,7 +35,7 @@ export function Card({ cardTech, cardTitle, cardImg }) {
           backgroundColor={"#3F3D56"}
           color="#fff"
           onClick={() => {
-            console.log("View Projects");
+            window.open(githubLink, "_blank");
           }}
         />
       </div>
