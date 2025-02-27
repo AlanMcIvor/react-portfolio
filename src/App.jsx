@@ -11,9 +11,16 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <About />
-      <Work />
-      <Contact />
+      <section id="about">
+        <About />
+      </section>
+      <section id="work">
+        <Work />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+
       <Footer />
     </>
   );

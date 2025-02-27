@@ -1,11 +1,23 @@
-/* Navbar container */
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 9px 0px rgba(31, 23, 60, 1); /* Optional shadow */
+  z-index: 1000;
+}
+
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1300px;
   margin: auto;
   padding: 2em;
+  max-width: 1300px;
+  width: 100%;
+  background-color: #fff;
 }
 
 .navbar a {
