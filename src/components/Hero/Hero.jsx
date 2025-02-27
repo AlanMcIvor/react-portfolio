@@ -14,7 +14,7 @@ export function Hero() {
   };
 
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <div className="hero-container">
         <div className="hero-txt">
           <h2>

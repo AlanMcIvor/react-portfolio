@@ -9,7 +9,9 @@ import { Footer } from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <Navbar />
+      <section id="home">
+        <Navbar />
+      </section>
       <Hero />
       <section id="about">
         <About />
