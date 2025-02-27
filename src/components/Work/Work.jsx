@@ -18,13 +18,13 @@ export function Work() {
             liveSiteLink="https://lustrous-treacle-0607c4.netlify.app/"
             githubLink="https://github.com/AlanMcIvor/todo-app"
           />
-          <Card
+          {/* <Card
             cardTech={["ReactJs", "FantaCss", "HTML"]}
             cardTitle={"Todo App"}
             cardImg={todos}
             liveSiteLink="https://lustrous-treacle-0607c4.netlify.app/"
             githubLink="https://github.com/AlanMcIvor/todo-app"
-          />
+          /> */}
           <Card
             cardTech={["PHP", "MySQL", "HTML"]}
             cardTitle={"Obanshire Scouts"}
