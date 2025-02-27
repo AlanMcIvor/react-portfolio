@@ -5,6 +5,14 @@ import heroIllustration from "./HeroIllustration.png";
 import { Button } from "../Button/Button";
 
 export function Hero() {
+  // Function to handle scrolling to a section
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section className="hero-section">
       <div className="hero-container">
@@ -17,16 +25,12 @@ export function Hero() {
             <Button
               text="View My Work"
               backgroundColor={"#FF6978"}
-              onClick={() => {
-                console.log("View Projects");
-              }}
+              onClick={() => scrollToSection("work")}
             />
             <Button
               text="Contact Me"
               backgroundColor={"#F5F5F5"}
-              onClick={() => {
-                console.log("Contact me");
-              }}
+              onClick={() => scrollToSection("contact")}
             />
           </div>
         </div>
